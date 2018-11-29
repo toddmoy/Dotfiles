@@ -1,0 +1,12 @@
+[user]
+	name = Todd Moy
+	email = todd.moy@gmail.com
+[core]
+	editor = vim
+	excludesfile = ~/.global.gitignore
+[color]
+	ui = true
+[github]
+	user = toddmoy
+[help]
+  autocorrect = 1
