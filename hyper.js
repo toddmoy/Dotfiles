@@ -19,16 +19,16 @@ module.exports = {
     cursorColor: "rgba(248,28,229,0.8)",
 
     // `BEAM` for |, `UNDERLINE` for _, `BLOCK` for █
-    cursorShape: "BLOCK",
+    cursorShape: "BEAM",
 
     // set to true for blinking cursor
-    cursorBlink: false,
+    cursorBlink: true,
 
     // color of the text
-    foregroundColor: "#fff",
+    foregroundColor: "#abb2bf",
 
     // terminal background color
-    backgroundColor: "#335",
+    backgroundColor: "#282c34",
 
     // border color (window, tabs)
     borderColor: "#000",
@@ -56,20 +56,20 @@ module.exports = {
     // an array here instead of a color map object
     colors: {
       black: "#000000",
-      red: "#ff0000",
-      green: "#33ff00",
-      yellow: "#ffff00",
-      blue: "#0066ff",
-      magenta: "#cc00ff",
-      cyan: "#00ffff",
+      red: "#ef596f",
+      green: "#89ca78",
+      yellow: "#f1c40f",
+      blue: "#52adf2",
+      magenta: "#d55fde",
+      cyan: "#52adf2",
       white: "#d0d0d0",
       lightBlack: "#808080",
-      lightRed: "#ff0000",
-      lightGreen: "#33ff00",
-      lightYellow: "#ffff00",
-      lightBlue: "#0066ff",
-      lightMagenta: "#cc00ff",
-      lightCyan: "#00ffff",
+      lightRed: "#ef596f",
+      lightGreen: "#89ca78",
+      lightYellow: "#d8985f",
+      lightBlue: "#52adf2",
+      lightMagenta: "#d55fde",
+      lightCyan: "#52adf2",
       lightWhite: "#ffffff"
     },
 
