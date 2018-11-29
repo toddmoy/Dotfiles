@@ -1,0 +1,7 @@
+{
+  "editorconfig": "~/.editorconfig",
+  "gitconfig": "~/.gitconfig",
+  "global.gitignore": "~/.global.gitignore",
+  "hyper.js": "~/.hyper.js",
+  "zshrc": "~/.zshrc"
+}
