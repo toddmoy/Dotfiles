@@ -29,3 +29,9 @@ _Add Node Packages_
 _Vim_
 
 1. Run `:PluginInstall` in vim.
+
+
+_VS Code_
+
+1. Run `rm -rf ~/Library/Application\ Support/Code/User`
+2. Run `ln -s ./vscode/User ~/Library/Application\ Support/Code/User`

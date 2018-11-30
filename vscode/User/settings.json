@@ -1,0 +1,30 @@
+{
+  "editor.tabSize": 2,
+  "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "window.zoomLevel": 0,
+  "git.enableSmartCommit": true,
+  "prettier.semi": true,
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.minimap.enabled": false,
+  "editor.accessibilitySupport": "off",
+  "git.confirmSync": false,
+  "explorer.confirmDragAndDrop": false,
+  "editor.wordWrap": "on",
+  "gitlens.advanced.messages": {
+    "suppressCommitHasNoPreviousCommitWarning": false,
+    "suppressCommitNotFoundWarning": false,
+    "suppressFileNotUnderSourceControlWarning": false,
+    "suppressGitVersionWarning": false,
+    "suppressLineUncommittedWarning": false,
+    "suppressNoRepositoryWarning": false,
+    "suppressResultsExplorerNotice": false,
+    "suppressShowKeyBindingsNotice": true
+  },
+  "workbench.sideBar.location": "left",
+  "workbench.statusBar.visible": false,
+  "workbench.activityBar.visible": true,
+  "workbench.colorTheme": "One Dark Pro Vivid",
+  "workbench.iconTheme": "easy-icons",
+  "editor.formatOnSave": true
+}

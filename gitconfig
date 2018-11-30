@@ -14,3 +14,10 @@
 	user = toddmoy
 [help]
   autocorrect = 1
+[alias]
+  a = add
+  b = branch
+  c = commit
+  co = checkout
+  l = log
+
