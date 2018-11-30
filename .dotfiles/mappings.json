@@ -3,6 +3,7 @@
   "gitconfig": "~/.gitconfig",
   "global.gitignore": "~/.global.gitignore",
   "hyper.js": "~/.hyper.js",
+  "prettierrc": "~/.prettierrc",
   "vim": "~/.vim",
   "vimrc": "~/.vimrc",
   "zshrc": "~/.zshrc"
