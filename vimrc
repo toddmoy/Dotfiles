@@ -8,6 +8,9 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'joshdick/onedark.vim'
 Plugin 'editorconfig/editorconfig-vim'
 Plugin 'airblade/vim-gitgutter'
+Plugin 'prettier/vim-prettier'
+
+syntax on
 
 call vundle#end()
 
