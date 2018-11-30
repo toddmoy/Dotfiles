@@ -22,7 +22,10 @@ _General_
 1. Run `dotfiles clone toddmoy/dotfiles` in a directory where you want to store the files
 1. Run `dotfiles link`. You might need to remove old dotfiles, as it won't overrite existing ones.
 
+_Add Node Packages_
+
+1. `npm install -g spaceship-prompt prettier`
+
 _Vim_
 
-1. Install Prettier globally: `yarn global add prettier`
-2. Run `:PluginInstall` in vim
+1. Run `:PluginInstall` in vim
