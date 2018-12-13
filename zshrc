@@ -8,3 +8,4 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 fpath=($fpath "/Users/toddmoy/.zfunctions")
 export PATH="$PATH:$HOME/bin"
+export PATH="$PATH:/usr/local/Cellar/postgresql@9.6/9.6.10/bin"
