@@ -17,6 +17,13 @@ syntax on
 
 :set number
 
+" Configuration for Lightline
+:set laststatus=2
+let g:lightline = {
+      \ 'colorscheme': 'seoul256',
+      \ }
+
+
 " Ctrl P Triggers
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
