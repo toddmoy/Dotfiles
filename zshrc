@@ -16,6 +16,9 @@ export PATH="$PATH:$HOME/bin"
 # Add path to Postgres
 export PATH="$PATH:/usr/local/Cellar/postgresql@9.6/9.6.10/bin"
 
+# Add path to Node modules
+export  PATH="$PATH:/usr/local/bin"
+
 # Add aliases
 alias fixvideo='sudo killall VDCAssistant'
 alias fixaudio='sudo killall coreaudiod'
