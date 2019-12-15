@@ -14,7 +14,7 @@ tap 'homebrew/services'
 
 # Browsers
 
-zoocask 'firefox-developer-edition'
+cask 'firefox-developer-edition'
 cask 'google-chrome'
 
 
@@ -62,6 +62,7 @@ cask 'spotify'
 
 # Shells
 
+brew 'bash'
 brew 'zsh'
 brew 'fish'
 
@@ -84,6 +85,7 @@ cask 'hyper'
 
 cask 'github'
 cask 'insomnia'
+brew "yarn"
 
 
 
@@ -91,6 +93,11 @@ cask 'insomnia'
 
 brew 'node'
 brew 'nvm'
-brew 'redis'
 brew 'wget'
 
+
+
+# Databases
+
+brew "postgresql", restart_service: true
+brew "redis", restart_service: true
