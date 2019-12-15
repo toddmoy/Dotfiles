@@ -32,6 +32,7 @@ mas "Amphetamine", id: 937984704
 # cask '1password'
 
 
+
 # Design Tools
 
 cask 'figma'
@@ -63,6 +64,7 @@ mas "Day One", id: 1055511498
 mas "Slack", id: 803453959
 cask 'zoomus'
 # cask 'slack'
+
 
 
 # Entertainment
