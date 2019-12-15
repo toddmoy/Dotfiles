@@ -22,14 +22,12 @@ cask 'google-chrome'
 
 # Utilities
 
-mas "1Password 7", id: 1333542190
-mas "Divvy", id: 413857545
 cask 'dropbox'
 cask 'pock'
 cask 'muzzle'
 mas "Amphetamine", id: 937984704
-# cask 'divvy'
-# cask '1password'
+mas "1Password 7", id: 1333542190
+mas "Divvy", id: 413857545
 
 
 
@@ -45,7 +43,13 @@ mas "Affinity Designer", id: 824171161
 mas "Affinity Photo", id: 824183456
 mas "Annotate", id: 918207447
 mas "Contrast", id: 1254981365
-# Adobe Creative Suite
+
+
+
+# fonts
+
+cask 'font-open-sans'
+cask 'font-fira-code'
 
 
 
@@ -61,9 +65,8 @@ mas "Day One", id: 1055511498
 
 # Communications
 
-mas "Slack", id: 803453959
 cask 'zoomus'
-# cask 'slack'
+mas "Slack", id: 803453959
 
 
 
@@ -86,6 +89,7 @@ brew 'fish'
 
 cask 'visual-studio-code'
 brew 'vim'
+mas "Xcode", id: 497799835
 
 
 
@@ -97,7 +101,6 @@ cask 'hyper'
 
 # Developer Tools
 
-mas "Xcode", id: 497799835
 brew 'git'
 cask 'github'
 cask 'insomnia'
@@ -105,11 +108,6 @@ brew 'yarn'
 cask 'dash'
 cask 'ngrok'
 brew 'ag'
-
-
-
-# Development Libraries
-
 brew 'node'
 brew 'nvm'
 brew 'rvm'
