@@ -5,8 +5,6 @@ tap 'homebrew/cask-drivers'
 tap 'homebrew/cask-fonts'
 tap 'homebrew/cask-versions'
 tap 'homebrew/core'
-tap 'homebrew/boneyard'
-tap 'homebrew/dev-tools'
 tap 'homebrew/bundle'
 tap 'homebrew/services'
 brew 'mas'
@@ -59,6 +57,7 @@ mas "Keynote", id: 409183694
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Todoist", id: 585829637
+mas "TickTick", id: 626144601
 mas "Day One", id: 1055511498
 
 
@@ -112,7 +111,6 @@ brew 'ag'
 brew 'node'
 brew 'npm'
 brew 'nvm'
-brew 'rvm'
 brew 'wget'
 brew 'yarn'
 
