@@ -1,10 +1,14 @@
 {
+  "Brewfile": "~/Brewfile",
+  "bash_profile": "~/.bash_profile",
   "editorconfig": "~/.editorconfig",
   "gitconfig": "~/.gitconfig",
   "global.gitignore": "~/.global.gitignore",
   "hyper.js": "~/.hyper.js",
   "prettierrc": "~/.prettierrc",
+  "profile": "~/.profile",
   "vim": "~/.vim",
   "vimrc": "~/.vimrc",
+  "vscode": "~/.vscode",
   "zshrc": "~/.zshrc"
 }
