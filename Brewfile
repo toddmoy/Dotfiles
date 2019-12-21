@@ -114,6 +114,7 @@ brew 'npm'
 brew 'nvm'
 brew 'rvm'
 brew 'wget'
+brew 'yarn'
 
 
 
