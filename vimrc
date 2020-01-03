@@ -9,6 +9,7 @@ endif
 
 call plug#begin('~/.vim/plugged')
 Plug 'editorconfig/editorconfig-vim'
+Plug 'airblade/vim-gitgutter'
 Plug 'prettier/vim-prettier'
 Plug 'itchyny/lightline.vim'
 Plug 'ctrlpvim/ctrlp.vim'
