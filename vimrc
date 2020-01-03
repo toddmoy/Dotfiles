@@ -1,5 +1,18 @@
 set nocompatible
-filetype off
+" filetype off
+
+if empty(glob('~/.vim/autoload/plug.vim'))
+  silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
+    \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+  autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+endif
+
+call plug#begin('~/.vim/plugged')
+Plug 'editorconfig/editorconfig-vim'
+Plug 'prettier/vim-prettier'
+Plug 'itchyny/lightline.vim'
+Plug 'ctrlpvim/ctrlp.vim'
+call plug#end()
 
 " set rtp+=~/.vim/bundle/Vundle.vim
 " call vundle#begin()
