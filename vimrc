@@ -12,14 +12,15 @@ Plug 'editorconfig/editorconfig-vim'
 Plug 'prettier/vim-prettier'
 Plug 'itchyny/lightline.vim'
 Plug 'ctrlpvim/ctrlp.vim'
+Plug 'tpope/vim-fugitive'
 call plug#end()
 
 syntax on
 
-:set number
+set number
 
 " Configuration for Lightline
-:set laststatus=2
+set laststatus=2
 let g:lightline = {
       \ 'colorscheme': 'seoul256',
       \ }
