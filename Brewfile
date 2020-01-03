@@ -113,7 +113,7 @@ brew 'npm'
 brew 'nvm'
 brew 'wget'
 brew 'yarn'
-
+brew 'exa'
 
 
 # Databases
