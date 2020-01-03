@@ -22,3 +22,7 @@ export  PATH="$PATH:/usr/local/bin"
 # Add aliases
 alias fixvideo='sudo killall VDCAssistant'
 alias fixaudio='sudo killall coreaudiod'
+alias ga="git add ."
+alias gc="git commit -m"
+alias gs="git status"
+alias ls="ls -G"
