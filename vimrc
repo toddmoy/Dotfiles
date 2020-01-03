@@ -1,17 +1,17 @@
 set nocompatible
 filetype off
 
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
+" set rtp+=~/.vim/bundle/Vundle.vim
+" call vundle#begin()
 
-Plugin 'VundleVim/Vundle.vim'
-Plugin 'editorconfig/editorconfig-vim'
-Plugin 'airblade/vim-gitgutter'
-Plugin 'prettier/vim-prettier'
-Plugin 'ctrlpvim/ctrlp.vim'
-Plugin 'itchyny/lightline.vim'
+" Plugin 'VundleVim/Vundle.vim'
+" Plugin 'editorconfig/editorconfig-vim'
+" Plugin 'airblade/vim-gitgutter'
+" Plugin 'prettier/vim-prettier'
+" Plugin 'ctrlpvim/ctrlp.vim'
+" Plugin 'itchyny/lightline.vim'
 
-call vundle#end()
+" call vundle#end()
 
 syntax on
 
