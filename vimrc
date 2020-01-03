@@ -1,5 +1,5 @@
 set nocompatible
-" filetype off
+set backspace=indent,eol,start
 
 if empty(glob('~/.vim/autoload/plug.vim'))
   silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
@@ -14,18 +14,6 @@ Plug 'itchyny/lightline.vim'
 Plug 'ctrlpvim/ctrlp.vim'
 call plug#end()
 
-" set rtp+=~/.vim/bundle/Vundle.vim
-" call vundle#begin()
-
-" Plugin 'VundleVim/Vundle.vim'
-" Plugin 'editorconfig/editorconfig-vim'
-" Plugin 'airblade/vim-gitgutter'
-" Plugin 'prettier/vim-prettier'
-" Plugin 'ctrlpvim/ctrlp.vim'
-" Plugin 'itchyny/lightline.vim'
-
-" call vundle#end()
-
 syntax on
 
 :set number
@@ -35,7 +23,6 @@ syntax on
 let g:lightline = {
       \ 'colorscheme': 'seoul256',
       \ }
-
 
 " Ctrl P Triggers
 let g:ctrlp_map = '<c-p>'
