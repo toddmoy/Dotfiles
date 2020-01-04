@@ -24,5 +24,7 @@ alias fixvideo='sudo killall VDCAssistant'
 alias fixaudio='sudo killall coreaudiod'
 alias ga="git add ."
 alias gc="git commit -m"
+alias gp="git pull"
+alias gl="git log"
 alias gs="git status"
 alias ls="ls -G"
