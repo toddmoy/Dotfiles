@@ -11,7 +11,13 @@ brew 'mas'
 
 
 
-# Browsers
+# Security
+
+tap 'Caskroom/cask/viscosity'
+
+
+
+# # Browsers
 
 cask 'firefox-developer-edition'
 cask 'google-chrome'
@@ -57,7 +63,7 @@ mas "Keynote", id: 409183694
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Todoist", id: 585829637
-mas "TickTick", id: 966085870 
+mas "TickTick", id: 966085870
 mas "Day One", id: 1055511498
 
 
