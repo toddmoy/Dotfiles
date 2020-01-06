@@ -13,7 +13,7 @@ brew 'mas'
 
 # Security
 
-tap 'Caskroom/cask/viscosity'
+cask 'viscosity'
 
 
 
