@@ -25,6 +25,7 @@ alias fixaudio='sudo killall coreaudiod'
 alias ga="git add ."
 alias gc="git commit -m"
 alias gp="git pull"
+alias gpp="git push"
 alias gl="git log"
 alias gs="git status"
 alias ls="ls -G"
