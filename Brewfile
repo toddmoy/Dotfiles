@@ -73,7 +73,7 @@ cask 'textexpander'
 cask 'zoomus'
 cask 'krisp'
 mas "Slack", id: 803453959
-
+cask 'discord'
 
 
 # Entertainment
