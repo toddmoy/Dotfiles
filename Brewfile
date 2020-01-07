@@ -17,7 +17,7 @@ cask 'viscosity'
 
 
 
-# # Browsers
+# Browsers
 
 cask 'firefox-developer-edition'
 cask 'google-chrome'
@@ -50,7 +50,7 @@ mas "Contrast", id: 1254981365
 
 
 
-# fonts
+# Fonts
 
 cask 'font-open-sans'
 cask 'font-fira-code'
@@ -65,12 +65,13 @@ mas "Pages", id: 409201541
 mas "Todoist", id: 585829637
 mas "TickTick", id: 966085870
 mas "Day One", id: 1055511498
-
+cask 'textexpander'
 
 
 # Communications
 
 cask 'zoomus'
+cask 'krisp'
 mas "Slack", id: 803453959
 
 
