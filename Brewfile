@@ -27,6 +27,7 @@ cask 'google-chrome'
 # Utilities
 
 cask 'dropbox'
+cask 'box'
 cask 'pock'
 cask 'muzzle'
 mas "Amphetamine", id: 937984704
