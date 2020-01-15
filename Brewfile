@@ -30,6 +30,8 @@ cask 'dropbox'
 cask 'box-drive'
 cask 'pock'
 cask 'muzzle'
+cask 'dozer'
+cask 'TextExpander'
 mas "Amphetamine", id: 937984704
 mas "1Password 7", id: 1333542190
 mas "Divvy", id: 413857545
@@ -66,7 +68,10 @@ mas "Pages", id: 409201541
 mas "Todoist", id: 585829637
 mas "TickTick", id: 966085870
 mas "Day One", id: 1055511498
+mas "Bear", id: 1091189122
 cask 'textexpander'
+cask 'notion'
+
 
 
 # Communications
