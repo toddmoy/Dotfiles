@@ -21,7 +21,7 @@ cask 'viscosity'
 
 cask 'firefox-developer-edition'
 cask 'google-chrome'
-cask 'brave'
+cask 'brave-browser'
 
 
 
