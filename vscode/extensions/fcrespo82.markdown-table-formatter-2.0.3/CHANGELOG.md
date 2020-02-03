@@ -1,3 +1,11 @@
+## 2.0.3
+
+* [FIX] Fix bug [#19](https://github.com/fcrespo82/vscode-markdown-table-formatter/issues/19) where the extension would fail to format a table with columns header and lines with 1 character
+
+## 2.0.2
+
+* [CHANGED] A lot of internal fixes and improvements 
+
 ## 2.0.1
 
 * [FIX] Various bugs

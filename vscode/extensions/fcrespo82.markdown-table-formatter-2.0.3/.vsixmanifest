@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Language="en-US" Id="markdown-table-formatter" Version="2.0.2" Publisher="fcrespo82"/>
+    <Identity Language="en-US" Id="markdown-table-formatter" Version="2.0.3" Publisher="fcrespo82"/>
     <DisplayName>Markdown Table Formatter</DisplayName>
     <Description xml:space="preserve">A simple markdown plugin to format tables.</Description>
     <Tags>markdown,table,formatter,keybindings</Tags>

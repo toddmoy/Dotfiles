@@ -21,6 +21,7 @@ cask 'viscosity'
 
 cask 'firefox-developer-edition'
 cask 'google-chrome'
+cask 'brave'
 
 
 
@@ -32,6 +33,7 @@ cask 'pock'
 cask 'muzzle'
 cask 'dozer'
 cask 'TextExpander'
+cask 'bettertouchtool'
 mas "Amphetamine", id: 937984704
 mas "1Password 7", id: 1333542190
 mas "Divvy", id: 413857545
@@ -42,6 +44,7 @@ mas "Divvy", id: 413857545
 
 cask 'figma'
 cask 'kap'
+cask 'screenflow'
 cask 'iconjar'
 cask 'sketch'
 cask 'sketchup'
