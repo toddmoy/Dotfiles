@@ -74,7 +74,7 @@ mas "Day One", id: 1055511498
 mas "Bear", id: 1091189122
 cask 'textexpander'
 cask 'notion'
-
+cask 'alfred'
 
 
 # Communications
