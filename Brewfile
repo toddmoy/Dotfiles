@@ -14,6 +14,7 @@ brew 'mas'
 # Security
 
 cask 'viscosity'
+cask 'keybase'
 
 
 
@@ -32,7 +33,6 @@ cask 'box-drive'
 cask 'pock'
 cask 'muzzle'
 cask 'dozer'
-cask 'TextExpander'
 cask 'bettertouchtool'
 mas "Amphetamine", id: 937984704
 mas "1Password 7", id: 1333542190
@@ -72,6 +72,7 @@ mas "Todoist", id: 585829637
 mas "TickTick", id: 966085870
 mas "Day One", id: 1055511498
 mas "Bear", id: 1091189122
+mas "Jira", id: 1475897096
 cask 'textexpander'
 cask 'notion'
 cask 'alfred'
