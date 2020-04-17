@@ -1,0 +1,62 @@
+{
+	"name": "json-template",
+	"displayName": "JSON-Template",
+	"description": "JSON-Template / Squarespace language support for Visual Studio Code.",
+	"icon": "images/squarespace-white.png",
+	"galleryBanner": {
+		"color": "#222",
+		"theme": "dark"
+	},
+	"version": "0.3.1",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/stormwarning/vscode-jsont.git"
+	},
+	"publisher": "stormwarning",
+	"engines": {
+		"vscode": "^1.5.0"
+	},
+	"categories": [
+		"Languages"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "jsont",
+				"aliases": [
+					"json template",
+					"jsont",
+					"squarespace",
+					"sqsp"
+				],
+				"extensions": [
+					".block",
+					".item",
+					".list",
+					".page",
+					".region"
+				],
+				"configuration": "./language-configuration.json"
+			},
+			{
+				"id": "json",
+				"extensions": [
+					".conf",
+					".preset"
+				]
+			}
+		],
+		"grammars": [
+			{
+				"language": "jsont",
+				"scopeName": "text.html.jsont",
+				"path": "./syntaxes/jsont.tmLanguage"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "6c7bfdd7-2cd2-41bd-b476-341bc7f89100",
+		"publisherId": "c6f27be7-ffef-45bf-af33-a9232d42ac5a",
+		"publisherDisplayName": "stormwarning"
+	}
+}

@@ -131,6 +131,7 @@ brew 'nvm'
 brew 'wget'
 brew 'yarn'
 brew 'exa'
+brew 'prisma'
 
 
 # Databases
