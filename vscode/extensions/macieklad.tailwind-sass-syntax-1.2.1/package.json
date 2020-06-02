@@ -1,0 +1,58 @@
+{
+	"name": "tailwind-sass-syntax",
+	"displayName": "Tailwind sass syntax",
+	"description": "Tailwind syntax highlighting for sass",
+	"version": "1.2.1",
+	"publisher": "macieklad",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/macieklad/tailwind-sass-syntax.git"
+	},
+	"icon": "icon.png",
+	"engines": {
+		"vscode": "^1.26.0"
+	},
+	"categories": [
+		"Formatters",
+		"Other"
+	],
+	"activationEvents": [
+		"onCommand:extension.sayHello"
+	],
+	"main": "./extension",
+	"contributes": {
+		"commands": [
+			{
+				"command": "extension.sayHello",
+				"title": "Activation"
+			}
+		],
+		"grammars": [
+			{
+				"injectTo": [
+					"source.css.scss",
+					"source.css.sass"
+				],
+				"scopeName": "source.css.tailwind",
+				"path": "./syntaxes/tailwind.tmLanguage.json"
+			}
+		]
+	},
+	"scripts": {
+		"postinstall": "node ./node_modules/vscode/bin/install",
+		"test": "node ./node_modules/vscode/bin/test",
+		"publish": "vsce publish"
+	},
+	"devDependencies": {
+		"typescript": "^2.6.1",
+		"vscode": "^1.1.21",
+		"eslint": "^4.11.0",
+		"@types/node": "^8.10.25",
+		"@types/mocha": "^2.2.42"
+	},
+	"__metadata": {
+		"id": "b01c7350-d960-41d1-b635-e5f4ab3af0c0",
+		"publisherId": "985e1eb0-6962-4c03-be1a-bd62107532cc",
+		"publisherDisplayName": "Maciej Ładoś"
+	}
+}
