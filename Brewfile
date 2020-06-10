@@ -132,6 +132,7 @@ brew 'wget'
 brew 'yarn'
 brew 'exa'
 brew 'prisma'
+brew 'deno'
 
 
 # Databases

@@ -1,0 +1,95 @@
+{
+	"name": "prisma",
+	"displayName": "Prisma",
+	"description": "Adds syntax highlighting, formatting, auto-completion, jump-to-definition and linting for .prisma files.",
+	"version": "2.0.0",
+	"license": "Apache-2.0",
+	"icon": "logo_white.png",
+	"engines": {
+		"vscode": "^1.43.0"
+	},
+	"publisher": "Prisma",
+	"categories": [
+		"Programming Languages"
+	],
+	"repository": {
+		"type": "github",
+		"url": "https://github.com/prisma/vscode"
+	},
+	"main": "./client/out/extension",
+	"contributes": {
+		"languages": [
+			{
+				"id": "prisma",
+				"aliases": [
+					"Prisma",
+					"prisma"
+				],
+				"extensions": [
+					".prisma"
+				],
+				"configuration": "./language-configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "prisma",
+				"scopeName": "source.prisma",
+				"path": "./syntaxes/prisma.tmLanguage.json"
+			}
+		],
+		"configuration": {
+			"type": "object",
+			"title": "Language server configuration",
+			"properties": {
+				"languageServerExample.maxNumberOfProblems": {
+					"scope": "resource",
+					"type": "number",
+					"default": 100,
+					"description": "Controls the maximum number of problems produced by the server."
+				},
+				"languageServerExample.trace.server": {
+					"scope": "window",
+					"type": "string",
+					"enum": [
+						"off",
+						"messages",
+						"verbose"
+					],
+					"default": "off",
+					"description": "Traces the communication between VS Code and the language server."
+				}
+			}
+		}
+	},
+	"scripts": {
+		"package": "vsce package",
+		"vscode:prepublish": "npm run compile",
+		"watch": "tsc -b -w",
+		"compile": "tsc -b",
+		"postinstall": "cd client && npm install && cd ../server && npm install && cd .. ",
+		"vsce:publish": "sh scripts/publish.sh",
+		"vsce:check": "yarn shell:lint && sh scripts/check-update.sh",
+		"shell:lint": "shellcheck -x scripts/*.sh",
+		"test": "sh ./scripts/e2e.sh",
+		"test-scripts": "mocha scripts/extension-version.test.js"
+	},
+	"activationEvents": [
+		"onLanguage:prisma"
+	],
+	"devDependencies": {
+		"@types/mocha": "5.2.7",
+		"@types/node": "12.12.0",
+		"chai": "4.2.0",
+		"mocha": "7.1.1",
+		"semver": "7.3.2",
+		"typescript": "3.8.3",
+		"vsce": "1.75.0"
+	},
+	"preview": false,
+	"__metadata": {
+		"id": "33ce9d6b-41cf-4972-a62b-386f7201981d",
+		"publisherId": "2397d6f3-c7f1-4b03-9029-414f731a68ec",
+		"publisherDisplayName": "Prisma"
+	}
+}
