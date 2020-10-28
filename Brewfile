@@ -96,7 +96,6 @@ mas "Pocket", id: 568494494
 
 brew 'bash'
 brew 'zsh'
-brew 'fish'
 
 
 
@@ -131,6 +130,7 @@ brew 'yarn'
 brew 'exa'
 brew 'prisma'
 brew 'deno'
+brew 'direnv'
 
 
 

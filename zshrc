@@ -29,3 +29,17 @@ alias gpp="git push"
 alias gl="git log"
 alias gs="git status"
 alias ls="ls -G"
+
+# Add macros
+
+# What's listening on port?
+# Usage: `listening {ps|port}`
+listening() {
+    if [ $# -eq 0 ]; then
+        sudo lsof -iTCP -sTCP:LISTEN -n -P
+    elif [ $# -eq 1 ]; then
+        sudo lsof -iTCP -sTCP:LISTEN -n -P | grep -i --color $1
+    else
+        echo "Usage: listening [pattern]"
+    fi
+}
