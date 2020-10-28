@@ -30,6 +30,9 @@ alias gl="git log"
 alias gs="git status"
 alias ls="ls -G"
 
+# Add direnv
+eval "$(direnv hook zsh)"
+
 # Add macros
 
 # What's listening on port?
