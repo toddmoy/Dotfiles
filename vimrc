@@ -1,5 +1,6 @@
 set nocompatible
 set backspace=indent,eol,start
+set background=dark
 
 if empty(glob('~/.vim/autoload/plug.vim'))
   silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
@@ -14,6 +15,7 @@ Plug 'prettier/vim-prettier'
 Plug 'itchyny/lightline.vim'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-surround'
 call plug#end()
 
 syntax on

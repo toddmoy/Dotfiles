@@ -14,7 +14,6 @@ brew 'mas'
 # Security
 
 cask 'viscosity'
-cask 'keybase'
 
 
 
@@ -50,7 +49,6 @@ cask 'sketchup'
 mas "GIF Brewery 3", id: 1081413713
 mas "Affinity Designer", id: 824171161
 mas "Affinity Photo", id: 824183456
-mas "Annotate", id: 918207447
 mas "Contrast", id: 1254981365
 
 
@@ -111,6 +109,7 @@ mas "Xcode", id: 497799835
 # Terminal
 
 cask 'hyper'
+brew 'tmux'
 
 
 
@@ -128,7 +127,6 @@ brew 'nvm'
 brew 'wget'
 brew 'yarn'
 brew 'exa'
-brew 'prisma'
 brew 'deno'
 brew 'direnv'
 
