@@ -1,6 +1,8 @@
-[user]
-	name = Todd Moy
-	email = todd.moy@gmail.com
+[includeIf "gitdir:zapier/"]
+  path = .gitconfig-zapier
+[includeIf "gitdir:toddmoy/"]
+  path = .gitconfig-personal
+
 [core]
 	editor = vim
 	excludesfile = ~/.global.gitignore
