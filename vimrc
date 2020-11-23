@@ -16,6 +16,8 @@ Plug 'itchyny/lightline.vim'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
+Plug 'preservim/nerdtree'
+Plug 'junegunn/vim-easy-align'
 call plug#end()
 
 syntax on
@@ -31,5 +33,11 @@ let g:lightline = {
 " Ctrl P Triggers
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
+
+" NERDTree Config
+autocmd vimenter * NERDTree
+
+" Align Github Flavored Markdown tables
+au FileType markdown vmap <Leader><Bslash> :EasyAlign*<Bar><Enter>
 
 filetype plugin indent on
