@@ -7,6 +7,7 @@ tap 'homebrew/cask-versions'
 tap 'homebrew/core'
 tap 'homebrew/bundle'
 tap 'homebrew/services'
+tap 'hashicorp/tap'
 brew 'mas'
 
 
@@ -129,6 +130,7 @@ brew 'yarn'
 brew 'exa'
 brew 'deno'
 brew 'direnv'
+brew 'hashicorp/tap/waypoint'
 
 
 

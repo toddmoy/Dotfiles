@@ -23,6 +23,7 @@ call plug#end()
 syntax on
 
 set number
+set autoindent
 
 " Configuration for Lightline
 set laststatus=2
