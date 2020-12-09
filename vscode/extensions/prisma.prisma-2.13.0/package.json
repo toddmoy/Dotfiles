@@ -2,7 +2,7 @@
 	"name": "prisma",
 	"displayName": "Prisma",
 	"description": "Adds syntax highlighting, formatting, auto-completion, jump-to-definition and linting for .prisma files.",
-	"version": "2.12.1",
+	"version": "2.13.0",
 	"license": "Apache-2.0",
 	"icon": "logo_white.png",
 	"engines": {
@@ -13,10 +13,10 @@
 		"Programming Languages"
 	],
 	"dependencies": {
-		"checkpoint-client": "1.1.14",
+		"checkpoint-client": "1.1.17",
 		"crypto": "1.0.1",
 		"chokidar": "3.4.3",
-		"@prisma/language-server": "2.12.1",
+		"@prisma/language-server": "2.13.0",
 		"vscode-languageclient": "6.1.3"
 	},
 	"optionalDependencies": {
@@ -108,7 +108,7 @@
 		"@types/vscode": "1.49.0",
 		"mocha": "8.2.1",
 		"ovsx": "0.1.0-next.e000fdb",
-		"semver": "7.3.2",
+		"semver": "7.3.4",
 		"typescript": "4.1.2",
 		"vsce": "1.81.1",
 		"vscode-test": "1.4.1"

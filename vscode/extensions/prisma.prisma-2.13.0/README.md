@@ -45,7 +45,7 @@ Adds syntax highlighting, formatting, jump-to-definition and linting for Prisma 
 <details>
   <summary>Quick-Fixes</summary>
   
-![Quick-Fixes](https://github.com/prisma/vscode/raw/master/./resources/spellingFix.gif)
+![Quick-Fixes](https://github.com/prisma/vscode/raw/master/./packages/vscode/resources/spellingFix.gif)
 </details>
 
 ## Contributing
@@ -59,7 +59,7 @@ The extension respects the `telemetry.enableTelemetry` setting in VSCode. If you
 
 ## Build information
 
-This is for Prisma CLI 2.12.1.
+This is for Prisma CLI 2.13.0.
 
 ## Security
 

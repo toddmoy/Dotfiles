@@ -1,6 +1,6 @@
 {
   "editor.tabSize": 2,
-  "editor.fontFamily": "'Fira Code', Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontFamily": "'Operator Mono', 'Fira Code', Menlo, Monaco, 'Courier New', monospace",
   "editor.fontLigatures": true,
   "window.zoomLevel": 0,
   "git.enableSmartCommit": true,
@@ -26,5 +26,15 @@
   "workbench.activityBar.visible": true,
   "workbench.colorTheme": "One Dark Pro Vivid",
   "workbench.iconTheme": "easy-icons",
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "comment",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  }
 }

@@ -29,6 +29,7 @@ alias gpp="git push"
 alias gl="git log"
 alias gs="git status"
 alias ls="ls -G"
+alias weather='curl v2.wttr.in'
 
 # Add direnv
 eval "$(direnv hook zsh)"

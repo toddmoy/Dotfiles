@@ -36,9 +36,16 @@ let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
 
 " NERDTree Config
-autocmd vimenter * NERDTree
+" autocmd vimenter * NERDTree
 
 " Align Github Flavored Markdown tables
 au FileType markdown vmap <Leader><Bslash> :EasyAlign*<Bar><Enter>
+
+" Operator Font tweaks
+highlight Comment gui=italic
+highlight Comment cterm=italic
+highlight htmlArg gui=italic
+highlight htmlArg cterm=italic
+
 
 filetype plugin indent on
