@@ -102,6 +102,7 @@ brew 'zsh'
 
 cask 'visual-studio-code'
 brew 'vim'
+brew 'neovim'
 brew 'emacs'
 mas "Xcode", id: 497799835
 

@@ -42,10 +42,9 @@ let g:ctrlp_cmd = 'CtrlP'
 au FileType markdown vmap <Leader><Bslash> :EasyAlign*<Bar><Enter>
 
 " Operator Font tweaks
-highlight Comment gui=italic
-highlight Comment cterm=italic
-highlight htmlArg gui=italic
-highlight htmlArg cterm=italic
-
+" highlight Comment gui=italic
+" highlight Comment cterm=italic
+" highlight htmlArg gui=italic
+" highlight htmlArg cterm=italic
 
 filetype plugin indent on

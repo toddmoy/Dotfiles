@@ -9,7 +9,7 @@ module.exports = {
     updateChannel: "stable",
 
     // default font size in pixels for all tabs
-    fontSize: 14,
+    fontSize: 16,
 
     // font family with optional fallbacks
     fontFamily:
@@ -49,7 +49,7 @@ module.exports = {
     showWindowControls: "",
 
     // custom padding (css format, i.e.: `top right bottom left`)
-    padding: "20px",
+    padding: "0 10px",
 
     // the full list. if you're going to provide the full color palette,
     // including the 6 x 6 color cubes and the grayscale map, just provide
