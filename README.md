@@ -12,6 +12,7 @@ These are my dotfiles. There are many like it, but this one is mine.
 | Editor             | VSCode, Vim                                                           |
 | Prompt             | Zsh with [Spaceship](https://github.com/denysdovhan/spaceship-prompt) |
 | Terminal           | [Hyper.js](https://hyper.is/)                                         |
+| Terminal 2         | iTerm 2
 | Vim Plugin Manager | [Vundle](https://github.com/VundleVim/Vundle.vim)                     |
 
 ## Installation
@@ -30,8 +31,14 @@ _Vim_
 
 1. Run `:PluginInstall` in vim.
 
-
 _VS Code_
 
 1. Run `rm -rf ~/Library/Application\ Support/Code/User`
 2. Run `ln -s ./vscode/User ~/Library/Application\ Support/Code/User`
+
+_iTerm 2_
+
+1. Install Operator Mono
+2. Run `tic xterm-256color-italic.terminfo`
+3. In iTerm preferences, go to Profiles > Terminal > Report Terminal Type and
+   type in `xterm-256color-italic`

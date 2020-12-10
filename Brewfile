@@ -112,7 +112,7 @@ mas "Xcode", id: 497799835
 
 cask 'hyper'
 brew 'tmux'
-
+cask 'iterm2'
 
 
 # Developer Tools
