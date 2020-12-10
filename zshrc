@@ -7,6 +7,10 @@ fpath=($fpath "/Users/toddmoy/.zfunctions")
 autoload -U promptinit; promptinit
 prompt spaceship
 
+# Add command completion
+autoload -U compinit
+compinit
+
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
 
@@ -29,10 +33,14 @@ alias gpp="git push"
 alias gl="git log"
 alias gs="git status"
 alias ls="ls -G"
-alias weather='curl v2.wttr.in'
+alias weather="curl v2.wttr.in"
+alias d="dirs -v | head -10"
 
 # Add direnv
 eval "$(direnv hook zsh)"
+
+# Change directory by typing path without `cd`
+setopt autocd autopushd
 
 # Add macros
 
