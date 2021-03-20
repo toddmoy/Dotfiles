@@ -29,11 +29,6 @@ cask 'google-chrome'
 
 cask 'dropbox'
 cask 'box-drive'
-cask 'pock'
-cask 'muzzle'
-cask 'dozer'
-cask 'bettertouchtool'
-cask 'monitorcontrol'
 mas "Amphetamine", id: 937984704
 mas "1Password 7", id: 1333542190
 mas "Divvy", id: 413857545
@@ -46,7 +41,6 @@ cask 'figma'
 cask 'screenflow'
 cask 'iconjar'
 cask 'sketch'
-cask 'sketchup'
 mas "GIF Brewery 3", id: 1081413713
 mas "Affinity Designer", id: 824171161
 mas "Affinity Photo", id: 824183456
@@ -67,10 +61,6 @@ mas "Keynote", id: 409183694
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Todoist", id: 585829637
-mas "Day One", id: 1055511498
-mas "Bear", id: 1091189122
-mas "Jira", id: 1475897096
-cask 'textexpander'
 cask 'notion'
 cask 'alfred'
 
@@ -131,8 +121,7 @@ brew 'yarn'
 brew 'exa'
 brew 'deno'
 brew 'direnv'
-brew 'hashicorp/tap/waypoint'
-
+brew 'imagemagick'
 
 
 # Databases

@@ -48,3 +48,7 @@ highlight htmlArg gui=italic
 highlight htmlArg cterm=italic
 
 filetype plugin indent on
+
+" Prettier setup
+let g:prettier#autoformat = 0
+autocmd BufWritePre *.js,*.jsx,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,*.md,*.vue PrettierAsync
