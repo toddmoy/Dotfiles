@@ -31,7 +31,9 @@ cask 'dropbox'
 cask 'box-drive'
 mas "Amphetamine", id: 937984704
 mas "1Password 7", id: 1333542190
-mas "Divvy", id: 413857545
+# mas "Divvy", id: 413857545
+mas "hazeover-distraction-dimmer", id: 430798174
+mas "Magnet", id: 441258766
 
 
 
