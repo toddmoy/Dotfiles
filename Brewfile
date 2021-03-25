@@ -7,14 +7,14 @@ tap 'homebrew/cask-versions'
 tap 'homebrew/core'
 tap 'homebrew/bundle'
 tap 'homebrew/services'
-tap 'hashicorp/tap'
+# tap 'hashicorp/tap'
 brew 'mas'
 
 
 
 # Security
 
-cask 'viscosity'
+# cask 'viscosity'
 
 
 
@@ -27,8 +27,8 @@ cask 'google-chrome'
 
 # Utilities
 
-cask 'dropbox'
-cask 'box-drive'
+# cask 'dropbox'
+# cask 'box-drive'
 mas "Amphetamine", id: 937984704
 mas "1Password 7", id: 1333542190
 # mas "Divvy", id: 413857545
@@ -40,9 +40,9 @@ mas "Magnet", id: 441258766
 # Design Tools
 
 cask 'figma'
-cask 'screenflow'
-cask 'iconjar'
-cask 'sketch'
+# cask 'screenflow'
+# cask 'iconjar'
+# cask 'sketch'
 mas "GIF Brewery 3", id: 1081413713
 mas "Affinity Designer", id: 824171161
 mas "Affinity Photo", id: 824183456
@@ -63,13 +63,16 @@ mas "Keynote", id: 409183694
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Todoist", id: 585829637
-cask 'notion'
+# cask 'notion'
 cask 'alfred'
+cask 'obsidian'
+cask 'zappy'
 
 
 
 # Communications
 
+cask 'loom'
 cask 'zoomus'
 cask 'krisp'
 mas "Slack", id: 803453959
@@ -94,8 +97,8 @@ brew 'zsh'
 
 cask 'visual-studio-code'
 brew 'vim'
-brew 'neovim'
-brew 'emacs'
+# brew 'neovim'
+# brew 'emacs'
 mas "Xcode", id: 497799835
 
 
@@ -111,7 +114,7 @@ cask 'iterm2'
 
 brew 'git'
 cask 'github'
-cask 'insomnia'
+# cask 'insomnia'
 brew 'yarn'
 cask 'ngrok'
 brew 'ag'
@@ -120,15 +123,15 @@ brew 'npm'
 brew 'nvm'
 brew 'wget'
 brew 'yarn'
-brew 'exa'
-brew 'deno'
+# brew 'exa'
+# brew 'deno'
 brew 'direnv'
 brew 'imagemagick'
 
 
 # Databases
 
-brew 'postgresql', restart_service: true
-brew 'redis', restart_service: true
-cask 'sequel-pro'
-brew 'sqlite'
+# brew 'postgresql', restart_service: true
+# brew 'redis', restart_service: true
+# cask 'sequel-pro'
+# brew 'sqlite'
