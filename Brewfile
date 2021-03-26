@@ -82,7 +82,8 @@ mas "Slack", id: 803453959
 # Entertainment
 
 cask 'spotify'
-mas "Pocket", id: 568494494
+mas "somafm-radio-player", id: 449155338
+# mas "Pocket", id: 568494494
 
 
 
