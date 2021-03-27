@@ -12,7 +12,7 @@ These are my dotfiles. There are many like it, but this one is mine.
 | Editor             | VSCode, Vim                                                           |
 | Prompt             | Zsh with [Spaceship](https://github.com/denysdovhan/spaceship-prompt) |
 | Terminal           | [Hyper.js](https://hyper.is/)                                         |
-| Terminal 2         | iTerm 2
+| Terminal 2         | iTerm 2                                                               |
 | Vim Plugin Manager | [Vundle](https://github.com/VundleVim/Vundle.vim)                     |
 
 ## Installation
@@ -29,7 +29,7 @@ _Add Node Packages_
 
 _Vim_
 
-1. Run `:PluginInstall` in vim.
+1. Run `:PlugInstall` in vim.
 
 _VS Code_
 

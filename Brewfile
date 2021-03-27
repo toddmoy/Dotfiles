@@ -52,7 +52,7 @@ mas "Contrast", id: 1254981365
 
 # Fonts
 
-cask 'font-open-sans'
+# cask 'font-open-sans'
 cask 'font-fira-code'
 
 
@@ -73,7 +73,7 @@ cask 'zappy'
 # Communications
 
 cask 'loom'
-cask 'zoomus'
+cask 'zoom'
 cask 'krisp'
 mas "Slack", id: 803453959
 
@@ -100,7 +100,7 @@ cask 'visual-studio-code'
 brew 'vim'
 # brew 'neovim'
 # brew 'emacs'
-mas "Xcode", id: 497799835
+# mas "Xcode", id: 497799835
 
 
 
