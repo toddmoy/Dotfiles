@@ -1,6 +1,6 @@
-[includeIf "gitdir:~/Repos/zapier/"]
+[includeIf "gitdir:~/Code/zapier/"]
   path = .gitconfig-zapier
-[includeIf "gitdir:~/Repos/toddmoy/"]
+[includeIf "gitdir:~/Code/toddmoy/"]
   path = .gitconfig-personal
 
 [core]
