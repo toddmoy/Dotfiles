@@ -30,3 +30,6 @@
 	process = git-lfs filter-process
 [credential]
 	helper = osxkeychain
+[user]
+	name = Todd Moy
+	email = todd.moy@gmail.com

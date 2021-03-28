@@ -7,14 +7,7 @@ tap 'homebrew/cask-versions'
 tap 'homebrew/core'
 tap 'homebrew/bundle'
 tap 'homebrew/services'
-# tap 'hashicorp/tap'
 brew 'mas'
-
-
-
-# Security
-
-# cask 'viscosity'
 
 
 
@@ -27,11 +20,8 @@ cask 'google-chrome'
 
 # Utilities
 
-# cask 'dropbox'
-# cask 'box-drive'
 mas "Amphetamine", id: 937984704
 mas "1Password 7", id: 1333542190
-# mas "Divvy", id: 413857545
 mas "hazeover-distraction-dimmer", id: 430798174
 mas "Magnet", id: 441258766
 
@@ -40,9 +30,6 @@ mas "Magnet", id: 441258766
 # Design Tools
 
 cask 'figma'
-# cask 'screenflow'
-# cask 'iconjar'
-# cask 'sketch'
 mas "GIF Brewery 3", id: 1081413713
 mas "Affinity Designer", id: 824171161
 mas "Affinity Photo", id: 824183456
@@ -52,7 +39,6 @@ mas "Contrast", id: 1254981365
 
 # Fonts
 
-# cask 'font-open-sans'
 cask 'font-fira-code'
 
 
@@ -91,6 +77,7 @@ mas "somafm-radio-player", id: 449155338
 
 brew 'bash'
 brew 'zsh'
+brew 'fish'
 
 
 
@@ -98,15 +85,13 @@ brew 'zsh'
 
 cask 'visual-studio-code'
 brew 'vim'
-# brew 'neovim'
-# brew 'emacs'
 # mas "Xcode", id: 497799835
 
 
 
 # Terminal
 
-cask 'hyper'
+# cask 'hyper'
 brew 'tmux'
 cask 'iterm2'
 
